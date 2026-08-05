@@ -1,103 +1,69 @@
-# 💼 Personal Portfolio
+# Dumindu Akhila Liyanaarachchi — Portfolio
 
-A modern, responsive, and interactive portfolio website built with **React.js**. This portfolio showcases my projects, technical skills, certifications, and contact information.
+Premium developer portfolio built with React (Vite), Tailwind CSS, and Framer Motion.
 
-## 🚀 Live Demo
+## Live Demo
 
-Coming Soon...
+Coming soon.
 
----
+## Features
 
-## ✨ Features
+- Dark glassmorphism UI with cyan / violet accents
+- Animated Hero, counters, skills, projects, timelines
+- Responsive across desktop, tablet, and mobile
+- Contact form with EmailJS (mailto fallback)
+- Lazy-loaded sections for performance
 
-- Responsive Design
-- Modern UI/UX
-- About Me Section
-- Skills Showcase
-- Projects Gallery
-- Certifications
-- Contact Section
-- Smooth Navigation
-- Fast Performance
+## Tech Stack
 
----
-
-## 🛠 Tech Stack
-
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
+- React.js (Vite)
+- Tailwind CSS v4
+- Framer Motion
 - React Router
 - React Icons
+- React Type Animation
+- EmailJS
 
----
-
-## 📂 Folder Structure
-
-```
-src/
-│
-├── assets/
-├── components/
-├── pages/
-├── styles/
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
----
-
-## 📸 Sections
-
-- 🏠 Home
-- 👨‍💻 About
-- 🛠 Skills
-- 📁 Projects
-- 🎓 Certifications
-- 📞 Contact
-
----
-
-## 📦 Installation
+## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-
-cd portfolio
-
 npm install
-
 npm run dev
 ```
 
----
+Build for production:
 
-## 📱 Responsive
+```bash
+npm run build
+npm run preview
+```
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile
+## Contact Form
 
----
+The contact form sends messages to your Gmail via [FormSubmit](https://formsubmit.co) (no API keys needed).
 
-## 👨‍💻 Author
+**First time only:** After the first form submission, FormSubmit emails `dumindu.akhila2003@gmail.com` — open that email and click **Confirm activation**. After that, messages arrive normally.
+
+Optional EmailJS (override FormSubmit):
+
+1. Copy `.env.example` to `.env`
+2. Add your EmailJS service ID, template ID, and public key
+3. Restart the dev server
+
+Template variables: `from_name`, `from_email`, `subject`, `message`
+
+## CV Download
+
+Place your CV PDF at:
+
+```
+public/Dumindu_Akhila_CV.pdf
+```
+
+## Author
 
 **Dumindu Akhila Liyanaarachchi**
 
-Information Technology Undergraduate
-
-📧 duminduliyanaarachchiofficial@gmail.com
-
-📱 +94 70 409 7264
-
-💼 LinkedIn:
-https://www.linkedin.com/in/dumindu-liyanaarachchi-bb8911385
-
----
-
-## ⭐ Support
-
-If you like this project, don't forget to give it a ⭐ on GitHub.
+- Email: dumindu.akhila2003@gmail.com
+- Phone: +94 70 409 7264
+- LinkedIn: https://www.linkedin.com/in/dumindu-liyanaarachchi-bb8911385
